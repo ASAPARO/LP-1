@@ -1,0 +1,103 @@
+#H {
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(255, 23, 139);
+    color: black;
+    float: left;
+    text-align: center;
+    height: 80px;
+    width: 80%;
+    font-size: 50px;
+}
+
+#M {
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 23, 139);
+    float: left;
+    text-align: center;
+    height: 980px;
+    width: 80%;
+    font-size: 50px;
+}
+
+#S {
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    background-color: rgb(255, 23, 139);
+    color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+    height: 200px;
+    width: 80%;
+    font-size: 30px;
+}
+
+.sm_button {
+    background-color: rgb(255, 23, 139);
+    color: aliceblue;
+    font-size: 40px;
+    padding: 10px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    border: 3px solid rgb(255, 23, 139);
+    text-transform: uppercase;
+}
+
+.sm_button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 23, 139);
+    border: 3px solid rgb(255, 23, 139);
+}
+
+.imie {
+    background-color: rgb(255, 23, 139);
+    color: aliceblue;
+    font-size: 35px;
+    padding: 10px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    border: 3px solid rgb(255, 23, 139);
+    text-transform: uppercase;
+}
+
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* Media Queries dla różnych rozdzielczości */
+@media only screen and (max-width: 768px) {
+    /* Styl dla rozdzielczości mniejszej lub równej 768px */
+    #H, #M, #S {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Styl dla rozdzielczości mniejszej lub równej 480px */
+    #H {
+        font-size: 30px;
+    }
+    
+    #M {
+        height: auto;
+        font-size: 30px;
+    }
+    
+    #S {
+        height: auto;
+        font-size: 20px;
+    }
+    
+    .sm_button, .imie {
+        font-size: 25px;
+    }
+}
